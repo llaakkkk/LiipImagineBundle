@@ -41,6 +41,10 @@ matrix:
     - php: 7.1
       env: SYMFONY_VERSION=3.3.x-dev WITH_ENQUEUE=true
     - php: 7.1
+      env: SYMFONY_VERSION=3.4.x-dev
+    - php: 7.1
+      env: SYMFONY_VERSION=4.0.x-dev
+    - php: 7.1
       env: SYMFONY_VERSION=dev-master
     - php: hhvm
   allow_failures:
